@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>RegistrationP2 - Functional Joint Chough</title>
+    <title>RegistrationP1 - Functional Joint Chough</title>
     <meta
       property="og:title"
-      content="RegistrationP2 - Functional Joint Chough"
+      content="RegistrationP1 - Functional Joint Chough"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8" />
@@ -61,7 +61,7 @@
     <div>
       <link href="./registration1.css" rel="stylesheet" />
 
-      <div class="registration-p2-container">
+      <div class="registration-p1-container">
         <header class="navbar4-container">
           <header data-thq="thq-navbar" class="navbar4-navbar-interactive">
             <img
@@ -139,7 +139,9 @@
             </div>
           </header>
         </header>
-        <div class="reg-form1-contact9 thq-section-padding">
+        <div
+          class="reg-form1-contact9 thq-section-padding reg-form1-root-class-name"
+        >
           <div class="thq-section-max-width thq-flex-row reg-form1-max-width">
             <img
               alt="Image1"
@@ -149,7 +151,9 @@
             <div class="reg-form1-content thq-flex-column">
               <div class="reg-form1-section-title thq-card">
                 <div class="reg-form1-content1">
-                  <h2 class="thq-heading-2"><span>E-Services</span></h2>
+                  <h2 class="reg-form1-text thq-heading-2">
+                    <span>e-Services Registration</span>
+                  </h2>
                   <span class="thq-body-small">
                     <span>
                       Register now to our KAELCO E-Services today to access your
@@ -159,7 +163,7 @@
                   </span>
                 </div>
               </div>
-              <form class="thq-card reg-form1-form">
+              <form class="reg-form1-form thq-card">
                 <div class="reg-form1-input">
                   <label
                     for="contact-form-3-name"
@@ -168,62 +172,25 @@
                     Account Number
                   </label>
                   <input
-                    type="text"
+                    type="number"
                     id="contact-form-3-name"
                     placeholder="10 Digit Account Number"
-                    class="thq-input"
-                  />
-                </div>
-                <div class="reg-form1-input1">
-                  <label
-                    for="contact-form-3-name"
-                    class="thq-body-small reg-form1-text3"
-                  >
-                    Registrant's Name
-                  </label>
-                  <input
-                    type="text"
-                    id="contact-form-3-name"
-                    placeholder="Registrant's Name"
-                    class="thq-input"
-                  />
-                </div>
-                <div class="reg-form1-input2">
-                  <label
-                    for="contact-form-3-email"
-                    class="thq-body-small reg-form1-text4"
-                  >
-                    Email
-                  </label>
-                  <input
-                    type="email"
-                    id="contact-form-3-email"
                     required="true"
-                    placeholder="Email Address"
+                    min="0"
+                    max="10"
                     class="thq-input"
                   />
-                </div>
-                <div class="reg-form1-checkbox">
-                  <input
-                    type="checkbox"
-                    id="contact-form-3-check"
-                    checked="true"
-                    required="true"
-                    class="thq-checkbox"
-                  />
-                  <label
-                    for="contact-form-3-check"
-                    class="reg-form1-text5 thq-body-small"
-                  >
-                    By registering your account, you agree to the Terms of use
-                    and Privacy Policy.
-                  </label>
                 </div>
                 <button
                   type="submit"
                   class="reg-form1-button thq-button-filled"
                 >
-                  <span class="thq-body-small"><span>Proceed</span></span>
+                  <a
+                    href="registration-p2.html"
+                    class="reg-form1-action1 thq-body-small"
+                  >
+                    <span>Proceed</span>
+                  </a>
                 </button>
               </form>
             </div>

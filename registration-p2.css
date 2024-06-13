@@ -125,81 +125,106 @@
   }
 }
 
-.reg-form1-contact9 {
+.reg-form2-contact9 {
   display: flex;
   position: relative;
   align-items: center;
   flex-direction: column;
 }
-.reg-form1-image1 {
+.reg-form2-image1 {
   flex: 1;
-  width: 572px;
-  height: auto;
+  width: 554px;
+  height: 622px;
   max-width: 640px;
+  align-self: stretch;
   border-radius: var(--dl-radius-radius-radius4);
 }
-.reg-form1-content {
+.reg-form2-content {
   gap: 0;
   flex: 1;
   align-items: stretch;
 }
-.reg-form1-section-title {
+.reg-form2-section-title {
   gap: var(--dl-space-space-unit);
-  width: 439px;
-  height: 162px;
+  height: 72px;
   display: flex;
   align-self: stretch;
   align-items: center;
   flex-direction: column;
   justify-content: center;
 }
-.reg-form1-content1 {
-  gap: var(--dl-space-space-oneandhalfunits);
-  width: 409px;
-  height: 239px;
-  display: flex;
-  align-self: stretch;
-  align-items: flex-start;
-  flex-direction: column;
+.reg-form2-text {
+  height: 53px;
 }
-.reg-form1-text {
-  height: 42px;
+.reg-form2-form {
+  height: 901px;
 }
-.reg-form1-form {
-  height: 201px;
-}
-.reg-form1-input {
+.reg-form2-input {
   gap: var(--dl-space-space-halfunit);
   display: flex;
   align-self: stretch;
   flex-direction: column;
 }
-.reg-form1-button {
-  align-self: flex-start;
+.reg-form2-text01 {
+  font-weight: 700;
 }
-.reg-form1-action1 {
+.reg-form2-input1 {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+  align-self: stretch;
+  flex-direction: column;
+}
+.reg-form2-text02 {
+  font-weight: 700;
+}
+.reg-form2-text03 {
+  font-weight: 700;
+}
+.reg-form2-text04 {
+  font-weight: 700;
+}
+.reg-form2-text05 {
+  font-weight: 700;
+}
+.reg-form2-checkbox {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-items: center;
+}
+.reg-form2-text06 {
+  height: auto;
+  font-size: 14px;
+  font-style: italic;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
   text-decoration: none;
 }
-
+.reg-form2-text11 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  text-decoration: none;
+}
+.reg-form2-button {
+  align-self: flex-start;
+}
+.reg-form2-action1 {
+  text-decoration: none;
+}
 @media(max-width: 991px) {
-  .reg-form1-max-width {
+  .reg-form2-max-width {
     flex-direction: column;
   }
-  .reg-form1-content {
+  .reg-form2-content {
     width: 100%;
   }
 }
 @media(max-width: 767px) {
-  .reg-form1-image1 {
+  .reg-form2-image1 {
     width: 100%;
-  }
-  .reg-form1-form {
-    height: 494px;
-  }
-}
-@media(max-width: 479px) {
-  .reg-form1-text2 {
-    font-weight: 600;
   }
 }
 
@@ -533,7 +558,7 @@
   }
 }
 
-.registration-p1-container {
+.registration-p2-container {
   width: 100%;
   display: flex;
   min-height: 100vh;
