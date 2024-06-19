@@ -1,87 +1,67 @@
-.reg-form3-contact9 {
+.contact-form5-contact9 {
   display: flex;
   position: relative;
   align-items: center;
   flex-direction: column;
 }
-.reg-form3-image1 {
+.contact-form5-image1 {
   flex: 1;
-  width: 592px;
+  width: auto;
   height: auto;
   max-width: 640px;
   border-radius: var(--dl-radius-radius-radius4);
 }
-.reg-form3-content {
+.contact-form5-content {
   gap: 0;
   flex: 1;
   align-items: stretch;
 }
-.reg-form3-section-title {
+.contact-form5-section-title {
   gap: var(--dl-space-space-unit);
   display: flex;
   align-self: stretch;
   align-items: flex-start;
   flex-direction: column;
 }
-.reg-form3-content1 {
+.contact-form5-content1 {
   gap: var(--dl-space-space-oneandhalfunits);
   display: flex;
   align-self: stretch;
   align-items: flex-start;
   flex-direction: column;
 }
-.reg-form3-text {
-  width: 389px;
-}
-.reg-form3-input {
-  gap: var(--dl-space-space-halfunit);
-  display: flex;
-  align-self: stretch;
-  flex-direction: column;
-}
-.reg-form3-text1 {
-  font-weight: bold;
-}
-.reg-form3-input1 {
-  gap: var(--dl-space-space-halfunit);
-  display: flex;
-  align-self: stretch;
-  flex-direction: column;
-}
-.reg-form3-text2 {
-  font-weight: bold;
-}
-.reg-form3-container {
+.contact-form5-container {
   gap: var(--dl-space-space-halfunit);
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   justify-content: center;
 }
-.reg-form3-text3 {
-  font-weight: bold;
-}
-.reg-form3-button {
-  align-self: flex-start;
-}
-.reg-form3-action1 {
-  text-decoration: none;
-}
 @media(max-width: 991px) {
-  .reg-form3-max-width {
+  .contact-form5-max-width {
     flex-direction: column;
   }
-  .reg-form3-content {
+  .contact-form5-content {
     width: 100%;
   }
 }
 @media(max-width: 767px) {
-  .reg-form3-image1 {
+  .contact-form5-image1 {
     width: 100%;
   }
 }
 @media(max-width: 479px) {
-  .reg-form3-image1 {
-    height: 100%;
+  .contact-form5-text {
+    width: 380px;
+    height: auto;
+    font-style: normal;
+    text-align: left;
+    font-weight: 400;
+  }
+  .contact-form5-text2 {
+    font-weight: 700;
+  }
+  .contact-form5-text4 {
+    font-weight: 700;
   }
 }

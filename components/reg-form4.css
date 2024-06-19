@@ -1,87 +1,89 @@
-.reg-form3-contact9 {
+.reg-form4-contact9 {
   display: flex;
   position: relative;
   align-items: center;
   flex-direction: column;
 }
-.reg-form3-image1 {
+.reg-form4-image1 {
   flex: 1;
-  width: 592px;
+  width: 581px;
   height: auto;
   max-width: 640px;
   border-radius: var(--dl-radius-radius-radius4);
 }
-.reg-form3-content {
+.reg-form4-content {
   gap: 0;
   flex: 1;
   align-items: stretch;
 }
-.reg-form3-section-title {
+.reg-form4-section-title {
   gap: var(--dl-space-space-unit);
+  height: 92px;
   display: flex;
   align-self: stretch;
   align-items: flex-start;
   flex-direction: column;
 }
-.reg-form3-content1 {
+.reg-form4-content1 {
   gap: var(--dl-space-space-oneandhalfunits);
   display: flex;
   align-self: stretch;
   align-items: flex-start;
   flex-direction: column;
 }
-.reg-form3-text {
-  width: 389px;
+.reg-form4-form {
+  width: 472px;
 }
-.reg-form3-input {
+.reg-form4-input {
   gap: var(--dl-space-space-halfunit);
   display: flex;
   align-self: stretch;
   flex-direction: column;
 }
-.reg-form3-text1 {
-  font-weight: bold;
+.reg-form4-text1 {
+  font-weight: 700;
 }
-.reg-form3-input1 {
+.reg-form4-input1 {
   gap: var(--dl-space-space-halfunit);
   display: flex;
   align-self: stretch;
   flex-direction: column;
 }
-.reg-form3-text2 {
-  font-weight: bold;
+.reg-form4-text2 {
+  font-weight: 700;
 }
-.reg-form3-container {
+.reg-form4-container {
   gap: var(--dl-space-space-halfunit);
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   justify-content: center;
 }
-.reg-form3-text3 {
-  font-weight: bold;
+.reg-form4-text3 {
+  font-weight: 700;
 }
-.reg-form3-button {
+.reg-form4-text5 {
+  color: #0c0cf1;
+  font-style: italic;
+  font-weight: 800;
+  text-decoration: underline;
+}
+.reg-form4-button {
   align-self: flex-start;
 }
-.reg-form3-action1 {
+.reg-form4-action1 {
   text-decoration: none;
 }
 @media(max-width: 991px) {
-  .reg-form3-max-width {
+  .reg-form4-max-width {
     flex-direction: column;
   }
-  .reg-form3-content {
+  .reg-form4-content {
     width: 100%;
   }
 }
 @media(max-width: 767px) {
-  .reg-form3-image1 {
+  .reg-form4-image1 {
     width: 100%;
-  }
-}
-@media(max-width: 479px) {
-  .reg-form3-image1 {
-    height: 100%;
   }
 }

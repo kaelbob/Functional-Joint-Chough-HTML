@@ -6,7 +6,7 @@
 }
 .reg-form1-image1 {
   flex: 1;
-  width: 572px;
+  width: 500px;
   height: auto;
   max-width: 640px;
   border-radius: var(--dl-radius-radius-radius4);
@@ -14,29 +14,41 @@
 .reg-form1-content {
   gap: 0;
   flex: 1;
+  width: 570px;
   align-items: stretch;
 }
 .reg-form1-section-title {
   gap: var(--dl-space-space-unit);
-  width: 439px;
-  height: 162px;
+  width: 100%;
+  height: 176px;
   display: flex;
   align-self: stretch;
   align-items: center;
+  padding-right: var(--dl-space-space-fourunits);
   flex-direction: column;
   justify-content: center;
+}
+.reg-form1-text {
+  width: 452px;
+  height: 73px;
 }
 .reg-form1-content1 {
   gap: var(--dl-space-space-oneandhalfunits);
   width: 409px;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
   height: 239px;
   display: flex;
+  position: relative;
   align-self: stretch;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
+  justify-content: flex-start;
 }
-.reg-form1-text {
-  height: 42px;
+.reg-form1-text1 {
+  top: 99px;
+  right: 0px;
+  width: auto;
+  position: absolute;
 }
 .reg-form1-form {
   height: 201px;
@@ -46,6 +58,10 @@
   display: flex;
   align-self: stretch;
   flex-direction: column;
+}
+.reg-form1-text-input {
+  width: 293px;
+  height: 37px;
 }
 .reg-form1-button {
   align-self: flex-start;
@@ -71,6 +87,45 @@
   }
 }
 @media(max-width: 479px) {
+  .reg-form1-contact9 {
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .reg-form1-content {
+    position: relative;
+  }
+  .reg-form1-section-title {
+    width: 388px;
+    height: 230px;
+    position: relative;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .reg-form1-text {
+    top: 30px;
+    left: 3px;
+    width: 392px;
+    height: 53px;
+    position: absolute;
+    padding-left: 2px;
+  }
+  .reg-form1-content1 {
+    top: 29px;
+    right: -20px;
+    width: 399px;
+    height: 76px;
+    display: none;
+    align-self: flex-start;
+    border-radius: var(--dl-radius-radius-radius4);
+  }
+  .reg-form1-text1 {
+    right: -74px;
+    bottom: -70px;
+    position: static;
+    align-self: flex-start;
+  }
   .reg-form1-text2 {
     font-weight: 600;
   }
